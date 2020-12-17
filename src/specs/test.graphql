@@ -1,0 +1,13 @@
+type Hello {
+    message: String
+}
+
+type Query {
+    Hellos(limit: Int): [Hello]
+}
+
+type Mutation {
+    createHello (
+        message: String
+    ): Hello
+}

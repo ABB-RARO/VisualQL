@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonJS",
+        "allowJs": true,
+        "checkJs": true,
+        "sourceMap": true,
+        "strict": false,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "outDir": "./dist",
+        "rootDir": "./",
+        // "target": "es2020",                       
+        // "module": "commonjs",                     
+        // "declaration": true,                     
+        // "outDir": "./dist",
+        // "strict": false,                           
+        "allowSyntheticDefaultImports": true,     
+        "esModuleInterop": false,
+    },
+    "include": ["./**/*.ts"],
+    "exclude": [
+        "./node_modules"
+      ]
+  }
