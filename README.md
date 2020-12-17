@@ -7,7 +7,7 @@ We took some sample schema from Apollo, after successfull deployment of the Visu
 ![Entry screen](doc/img/visualql-1.png)
 
 You can try following quey:
-```JSON
+``` 
 query
 {
   Tweets(limit:50)
@@ -17,7 +17,7 @@ query
 }
 ```
 
-## Adding new shcema
+## Adding new schema
 Using `Add schema` one can add custom graphql schema.
 The file uploaded must have `graphql` extension, otherwise gets ignored.
 
@@ -37,8 +37,8 @@ Upload results in another schema shown, as you one see:
 |SPEC_DIR|Directory where schemas in GQL format are stored|`./spec/`|
  
 ## Debugging
-Use VisualStudio Code to open the folder.
-`.vscode` contais valid `launch.json`, use `DEBUG MOCK test` configuration
+Use VisualStudio Code to open the folder **src**.
+`.vscode` contais valid `launch.json`, use `DEBUG MOCK` configuration
 
 ## Development
 - authentication is really stupid
