@@ -41,10 +41,13 @@ Use VisualStudio Code to open the folder **src**.
 `.vscode` contais valid `launch.json`, use `DEBUG MOCK` configuration
 
 ## Development
+What is missing:
 - authentication is really stupid
 - some error handling implemnted, but not really extensive
 - logging to console
 - no SSL at all
+- any CI/CD
+- dev branch
 
 Feel free to improve via PRs.
 
