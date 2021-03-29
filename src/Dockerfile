@@ -11,7 +11,7 @@ COPY . .
 
 WORKDIR /app/src
 RUN tsc
-RUN npm build
+RUN npm run build
 WORKDIR /app/dist
 
 EXPOSE 4004
