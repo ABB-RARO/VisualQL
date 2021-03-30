@@ -71,3 +71,9 @@ docker rm visualql
 
 Of course, you can turn it into compose file, Help chart, Kuberenets deployment etc. Imagination has no limits.
 
+### Windows
+See https://stackoverflow.com/questions/23243353/how-to-set-shell-for-npm-run-scripts-in-windows
+
+```npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"```
+
+Then `npm run build` works.
